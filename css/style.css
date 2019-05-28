@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: freeSans, arial, sans-serif;
+  background-color: transparent;
+  min-height: 100%;
+}
+
+div {
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: scale-down;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.wrapper {
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+
+.content-container {
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgrey;
+  min-height: 100%;
+  max-width: 800px;
+  margin: 5px;
+}
+
+.top-container {
+  flex-direction: row;
+  margin: 5px;
+}
+
+.top-item {
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid-container {
+  flex-direction: column;
+  margin: 5px;
+}
+
+.project-container {
+  flex-direction: column;
+  margin: 5px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+
+.project-header {
+  width: 100%;
+}
+
+.project {
+  flex: 1 320px;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin: 5px;
+}
+
+#avatar {
+  border-radius: 50%;
+}
+
+/* @media screen and (min-width: 800px) {
+  .project {
+    flex: 1 100%;
+  }
+} */
