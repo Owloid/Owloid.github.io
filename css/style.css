@@ -35,7 +35,7 @@ h3 {
 .content-container {
   flex-direction: column;
   align-items: center;
-  background-color: lightgrey;
+  background-color: whitesmoke;
   min-height: 100%;
   max-width: 800px;
   margin: 5px;
@@ -57,13 +57,28 @@ h3 {
   margin: 5px;
 }
 
+.link-container {
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+
+.social-link:hover {
+  color: grey;
+}
+
 .project-container {
   flex-direction: column;
   margin: 5px;
 }
 
 .projects-container {
-  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
